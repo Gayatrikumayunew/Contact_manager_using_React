@@ -1,0 +1,123 @@
+
+body{
+  background: #484848;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #000;
+  color: white;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.field{
+  background: #141414;
+  color: white;
+}
+.contact_head{
+  border-radius: 5px;
+  width:550px;
+  background: #3B3B3B;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.head{
+  color: #dbd4d4;
+  font-size: 25px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn{
+  margin-top: 25px;
+  padding: 14px 56px;
+  font-weight: 600;
+  font-size: 17px;
+  background: #8f8f8f;
+  outline: none;
+  border: none;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  margin-left: 45px;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 28px;
+  color:#dbd4d4 ;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list_contact{
+  display: flex;
+  justify-content: space-between;
+  background: #8f8f8f;
+  padding: 12px;
+  border-radius: 8px;
+  outline: black;
+  gap: 280px;
+  margin-top: 22px;
+  margin-left: 188px;
+  margin-right: 188px;
+
+}
+.text{
+  color: #141414;
+  font-weight: 600;
+  font-size: 18px;
+}
+.heading{
+  display: flex;
+  justify-content: space-around;
+  color: #7a7878;
+  font-weight: 900;
+
+}
+@media screen and (min-width: 360px)and (max-width:750px) {
+  .list_contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    width: 100%;
+    gap: 0px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .text{
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width:1000px) {
+  .list_contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 0px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .text{
+    margin-top: 5px;
+  }
+}
+
